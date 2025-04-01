@@ -1,6 +1,6 @@
-### **Project Report: Date Class Implementation**
+ **Project Report: Date Class Implementation**
 
-#### **Objective:**
+ **Objective:**
 The project’s objective was to design and implement a `MyDate` class in Java that represents dates and provides various operations such as:
 1. Validating the date.
 2. Updating a date.
@@ -13,7 +13,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 
 
 
-### **Design Choices:**
+ **Design Choices:**
 
 1. **Date Representation:**
    - The `MyDate` class has three main attributes: `dayOfMonth`, `monthOfYear`, and `yearOfDate`, representing the day, month, and year of the date, respectively.
@@ -48,7 +48,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 
 
 
-### **Algorithms and Data Structures Used:**
+ **Algorithms and Data Structures Used:**
 
 - **`Comparable<MyDate>` Interface:**
   - The `MyDate` class implements `Comparable<MyDate>`, which allows comparing two `MyDate` objects based on the year, month, and day. This is necessary for sorting the `MyDate` objects in ascending order.
@@ -64,7 +64,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 
 
 
-### **Challenges Encountered:**
+ **Challenges Encountered:**
 
 1. **Leap Year Calculation:**
    - Ensuring the correct calculation of leap years was a key challenge. While most date validation algorithms account for this, correctly handling century years (divisible by 100 but not by 400) required careful attention.
@@ -77,7 +77,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 
 
 
-### **Improvements Made to the Initial Implementation:**
+ **Improvements Made to the Initial Implementation:**
 
 - **Date Validation:**
   - Initially, there were issues with invalid dates not being properly handled, especially for months with fewer than 31 days. These were corrected by adding logic for validating the number of days in each month and handling leap years.
@@ -90,7 +90,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 
 
 
-### **Conclusion:**
+ **Conclusion:**
 This implementation of the `MyDate` class provides a flexible, reusable solution for handling dates in Java. The key features include validation of dates, calculation of the difference between dates, retrieving the day of the week, and sorting a list of dates. The code was designed to handle edge cases and provide meaningful error messages when invalid dates are encountered. The use of `Comparable` and `GregorianCalendar` ensures correct behavior in all scenarios.
 
 Future improvements could involve adding file input/output capabilities, allowing users to input dates from a file and output results to a file. Additionally, more sophisticated date handling, such as supporting time zones or including time of day, could be implemented.
