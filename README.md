@@ -11,7 +11,7 @@ The project’s objective was to design and implement a `MyDate` class in Java t
 
 This project also includes a `Main` class that demonstrates the functionality of the `MyDate` class.
 
----
+
 
 ### **Design Choices:**
 
@@ -46,7 +46,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 7. **Formatted Date Printing (`printFormattedDate()` method):**
    - The `printFormattedDate()` method prints the date in a user-friendly format like "January 1, 2023."
 
----
+
 
 ### **Algorithms and Data Structures Used:**
 
@@ -62,7 +62,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 - **Date Validation Algorithm:**
   - The date validation uses a series of conditional checks to ensure the date is valid, including checking for valid month numbers and considering the number of days in each month, including leap year rules for February.
 
----
+
 
 ### **Challenges Encountered:**
 
@@ -75,7 +75,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 3. **Handling Invalid Dates:**
    - Properly handling invalid dates (e.g., February 30th or April 31st) and ensuring the date object fell back to a default valid date (January 1, 1970) was a challenge. The code avoids crashes by gracefully handling invalid input.
 
----
+
 
 ### **Improvements Made to the Initial Implementation:**
 
@@ -88,7 +88,7 @@ This project also includes a `Main` class that demonstrates the functionality of
 - **Error Handling:**
   - The `updateDate()` method was improved to print an error message if the new date is invalid, ensuring the user receives feedback.
 
----
+
 
 ### **Conclusion:**
 This implementation of the `MyDate` class provides a flexible, reusable solution for handling dates in Java. The key features include validation of dates, calculation of the difference between dates, retrieving the day of the week, and sorting a list of dates. The code was designed to handle edge cases and provide meaningful error messages when invalid dates are encountered. The use of `Comparable` and `GregorianCalendar` ensures correct behavior in all scenarios.
